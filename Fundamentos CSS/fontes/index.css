@@ -1,0 +1,34 @@
+header {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: purple;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+p{
+    font-size: 32px;
+    font-family: monospace;
+    text-transform: capitalize;
+
+}
+
+.bold {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.italic {
+    font-size: 32px;
+    font-style: italic;
+}
