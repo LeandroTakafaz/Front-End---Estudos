@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    margin: 10px;
+    font-family: 'Lora', serif;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+img + h2 {
+    margin-top: 50px;
+}
+
+.livro {
+    background-color: #43ABF6;
+}
+
+.inscreve {
+    margin: 30px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding-top: 30px;
+    height: 50px;
+}
