@@ -1,0 +1,35 @@
+li:nth-child(2) {
+    color: #880088;
+}
+
+li:nth-child(3n) {
+    color: blue;
+    background-color: cadetblue;
+}
+
+li:hover {
+    background-color: #232323;
+    color: white;
+}
+
+li::before {
+    content: "(antes) ";
+}
+li::after {
+    content: " (depois)";
+}
+
+li:first-child {
+    background-color: #232323;
+    color: #fff;
+}
+
+li:last-child {
+    background-color: #232323;
+    color: #990099;
+}
+
+li:not(:first-child) {
+    background-color: #555555;
+}
+ 
