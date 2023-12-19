@@ -1,0 +1,30 @@
+:root {
+    --cor-back: #232323;
+    --cor-fonte: #fff;
+    --cor-shadow: #770077;
+    --pre-pq: 1rem;
+    --pre-md: 2rem;
+    --pre-gd: 4rem;
+}
+
+* {
+    background-color: #232323;
+}
+
+header{
+    background-color: var(--cor-back);
+    color: var(--cor-fonte);
+    border-radius: 5px;
+    border-color: #fff;
+    border: 2px solid #770077;
+}
+
+section {
+    color: var(--cor-fonte);
+    
+}
+
+.red-box {
+    --cor-back: #555555;
+    background-color: var(--cor-back);
+}
