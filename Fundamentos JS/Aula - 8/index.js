@@ -1,5 +1,10 @@
 const arr = ["Frodo", "Sam", "Merry", "Pippin", "Gandalf", "Aragorn", "Legolas", "Gimli"]
 
+// push: Adiciona um elemento no final do array e devolve o novo tamanho do array
+let tamanho = arr.push("Boromir")
+console.log(arr)
+console.log(tamanho)
+
 // includes: Verifica se um certo elemento está presente no array 
 const inclui = arr.includes("Gandalf")
 console.log(inclui)
