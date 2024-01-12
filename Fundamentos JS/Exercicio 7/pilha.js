@@ -25,4 +25,4 @@ do{
         default:
             alert("Opção inválida! Tente novamente.")
     }
-} while(opcao !== "3");
+} while(opcao !== "3");  
