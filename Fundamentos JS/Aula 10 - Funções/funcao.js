@@ -52,11 +52,11 @@ function parametrosDoJeitoErrado(nome, telefone, endereco, aniversario, email, s
   // Além de facilitar na chamada da função, a ordem dos parâmetros se torna irrelevante
   parametrosDoJeitoErrado("nome", "telefone", "endereco", "aniversario", "email", "senha")
   const dadosDoUsuario = {
-    nome: "",
-    telefone: "",
-    email: "",
-    senha: "",
-    aniversario: "",
-    endereco: ""
+    nome: "Takafaz",
+    telefone: "222",
+    email: "Takafaz@gmail.com",
+    senha: "333",
+    aniversario: "22/22/22",
+    endereco: "Av. A"
   }
   parametrosDoJeitoCerto(dadosDoUsuario)
