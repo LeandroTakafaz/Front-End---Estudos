@@ -38,8 +38,8 @@ function criarUsuario(nome, email, senha, tipo = "leitor") {
     console.log(usuario)
   }
   
-  criarUsuario("Isaac", "isaac@email.com", "1234")
-  novoUsuario("Isaac", "isaac@email.com", "1234")
+  criarUsuario("Takafaz", "takafaz@email.com", "1234")
+  novoUsuario("Takafaz", "takafaz@email.com", "1234")
 
 // Ao criarmos uma função com muitos parâmetros,
 // uma boa prática é substituí-los por um objeto
