@@ -15,7 +15,7 @@ function criarProduto(nome, preco) {
 const notebook = criarProduto("Notebook Intel Core i3 8GB", 3000)
 console.log(notebook)
 
-const tablet = criarProduto('Samsung Tab S7', "1300")
+const tablet = criarProduto('Galaxy Tab S7', "1300")
 console.log(tablet)
 
 // E o retorno não precisa ser uma variável,
@@ -26,7 +26,7 @@ function areaRetangular(base, altura) {
   console.log(areaRetangular(3, 5))
   // Ou até o retorno de outra função
   function areaQuadrada(lado) {
-    return areaRetangular(lado, lado)
+  return areaRetangular(lado, lado)
   }
   console.log(areaQuadrada(8))
 
